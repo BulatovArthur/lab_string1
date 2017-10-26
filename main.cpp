@@ -7,6 +7,7 @@ int main ()
 {
  string str1 = "My ";
  string str2 = "home.";
- cout << str1 << str2 << endl;
+ string str3 = str1 + str2; 
+ cout << str3;
  return 0;
 }
